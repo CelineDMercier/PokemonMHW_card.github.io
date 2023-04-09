@@ -1,0 +1,176 @@
+.pokemon {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.pokemon_card_container {
+    position: relative;
+    margin: auto;
+    width: 20em;
+    height: 31em;
+    border: 10px solid #ffcb05;
+    border-radius: 2%;
+    box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+                100px 100px 80px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.background_pokemon_card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.pokemon_card_header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+    padding-top: 0.2em;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.pokemon_biome {
+    position: absolute;
+    font-size: small;
+    border: 2px solid rgba(42, 40, 40);
+    border-radius: 20%;
+    padding: 0.2em;
+    padding-right: 0.3em;
+    margin-top: -0.8em;
+}
+
+.pokemon_name {
+    font-size:x-large;
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+.pokemon_pv {
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.pokemon_pv .pv {
+    font-size: small;
+    font-weight: bold;
+}
+
+.pokemon_picture img {
+    height: auto;
+    width: 90%;
+    border-top: 3px solid #ffcb05;
+    border-right: 3px solid #ffcb05;
+    border-bottom: 15px solid #ffcb05;
+    border-left: 3px solid #ffcb05;
+    box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.05),
+                100px 100px 80px rgba(0, 0, 0, 0.1);
+    margin: 0.8em;
+    margin-top: 0;
+}
+
+.pokemon_informations_small {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: -4em;
+    font-size: x-small;
+    color: black;
+}
+
+.pokemon_weakness_element,
+.pokemon_strenght_element {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon_weakness_element img {
+    height: 1.2em;
+    padding-left: 0.2em;
+}
+
+.pokemon_strenght_element img {
+    height: 1.2em;
+    padding-left: 0.2em;
+    padding-bottom: 1em;
+}
+
+.description_weakness {
+    font-size: small;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    margin-right: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.description_strenght {
+    font-size: small;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    margin-right: 2.5em;
+}
+
+.pokemon_afflictions {
+    margin-left: 3.3em;
+}
+
+.pokemon_afflictions p {
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.pokemon_afflictions img {
+    height: 1.2em;
+    padding-left: 0.2em;
+    padding-bottom: 1em;
+}
+
+.pokemon_hunter_quote {
+    text-align: center;
+    font-size: x-small;
+    margin: 0;
+}
+
+.pokemon_copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon_copyright p {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    font-size: x-small;
+}
+
+@media (max-width: 1000px) {
+    .pokemon {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .pokemon_card_container {
+      margin-top: 2em;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .pokemon {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .pokemon_card_container {
+      margin-top: 2em;
+    }
+  } 
+  
+  
